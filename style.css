@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:monospace;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    background-image: url(./icons/moroccan-flower.png) ;
+    background-color: white;
+    border: solid 2px grey;
+    height: 300px;
+    width: 700px;
+    margin: 10px auto;
+}
+
+.border {
+    background-color:darksalmon;
+    height: 80px;
+    margin: -5px;
+    border: solid 2px grey;
+}
+
+.row {
+    display: flex;
+}
+
+.column1 {
+    flex: 1;
+    /* background-color: cadetblue; */
+    margin-top: 5px;
+}
+
+.column2 {
+    display: flex;
+    flex: 1;
+    /* background-color: cornflowerblue; */
+}
+
+.img1 {
+    height: 70px;
+    width: 70px;
+    margin: -36px 10px 0px 25px;
+    border: double grey;
+    border-radius: 50%;
+    /* display: flex; */
+}
+
+h2, p {
+    margin-left: 20px;
+}
+
+
+.location {
+    display: flex;
+}
+
+.img2, .img3{
+    height: 20px;
+    margin-left: 20px;
+    vertical-align: text-bottom
+}
+
+.about {
+    padding: 5px;
+    margin: 5px;
+}
+
+.edit {
+    padding: 5px;
+}
